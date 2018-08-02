@@ -3,10 +3,16 @@
 //and for the multiples of five print “Buzz”. 
 //For numbers which are multiples of both three and five print “FizzBuzz”."
 
+// Note: study Reminder operator 
+// The remainder operator returns the remainder left over when one operand is divided by a second operand. 
+//It always takes the sign of the dividend.
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder_()
+
 function fizzBuzz(n) {
   
   let i;
-  
+
   for (i = 1; i <= n; i++) {
 
     if(i % (3 * 5) === 0 ) {
